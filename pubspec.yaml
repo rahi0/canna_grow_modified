@@ -1,0 +1,159 @@
+name: cannagrowdev
+description: A new Flutter project.
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.2
+  redux:
+  flutter_redux:
+  redux_thunk:
+  # image_picker: 
+  shared_preferences:
+  http: 
+  json_serializable: 
+  build_runner: 
+  location:
+  geocoder:
+  # image_cropper: 
+  # path_provider:
+  charts_flutter:
+  smooth_star_rating:
+  google_maps_flutter:    
+  flutter_launcher_icons:
+  connectivity:  
+  flutter_statusbarcolor: 
+  firebase_messaging: 
+  #flutter_country_picker:
+  image_picker:
+  image_cropper:
+
+flutter_icons:
+  android: "launcher_icon" 
+  ios: true
+  image_path: "assets/images/sign_in_cannagrow.png"
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+dependency_overrides:
+  image: 2.0.7
+# For information on the generic Dart part of this file, see the
+# following page: https://www.dartlang.org/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+   - assets/images/logo.jpg
+   - assets/images/car.jpg
+   - assets/images/item.jpg
+   - assets/images/amex.JPG
+   - assets/images/visa.JPG
+   - assets/images/order_item.JPG
+   - assets/images/mastercard.png
+   - assets/images/visa.JPG
+   - assets/images/nen.jpg
+   - assets/images/share-button.png
+   - assets/images/logout.png
+   - assets/images/plus-symbol.png
+   - assets/images/check.png
+   - assets/images/checked.png
+   - assets/images/check_grey.png
+   - assets/images/landscape.png
+   - assets/images/product.JPG
+   - assets/images/white.JPG
+   - assets/images/exclamation.png
+   - assets/images/noproduct.png
+   - assets/images/order.png
+   - assets/images/ph.jpg
+   - assets/images/empty.png
+   - assets/images/sign_in_cannagrow.png
+   - assets/images/shop.jpg
+   - assets/images/medicine.jpg
+   - assets/images/mdcn.jpg
+   - assets/images/camera.png
+   - assets/images/medicine_icon.PNG
+   - assets/images/banner.jpg
+   - assets/images/order_banner.jpg
+   - assets/images/shopBanner.jpg
+   - assets/images/completed.jpg
+   - assets/images/review.jpg
+   - assets/images/driver_found.jpg
+   - assets/images/new_order.jpg
+   
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.io/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.io/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: GrapheinPro
+      fonts:
+        - asset: assets/fonts/GrapheinPro/grapheinpro-black.otf
+        - asset: assets/fonts/GrapheinPro/grapheinpro-light.otf
+         
+    - family: StandardCT
+      fonts:
+        - asset: assets/fonts/StandardCT/standardcondensed-regular.otf
+        - asset: assets/fonts/StandardCT/standardcondensed-light.otf
+        - asset: assets/fonts/StandardCT/standard-regular.otf
+        - asset: assets/fonts/StandardCT/standard-light.otf
+
+    - family: DINPro
+      fonts:
+        - asset: assets/fonts/DINPro/DINPro-Regular.ttf
+
+    - family: MyriadPro
+      fonts:
+        - asset: assets/fonts/MyriadPro/MyriadPro-Bold.otf
+        - asset: assets/fonts/MyriadPro/MyriadPro-Regular.otf
+
+    - family: MyriadPro
+      fonts:
+        - asset: assets/fonts/MyriadPro/MyriadPro-Bold.otf
+        - asset: assets/fonts/MyriadPro/MyriadPro-Regular.otf
+
+    - family: SourcesansPro
+      fonts:
+        - asset: assets/fonts/SourcesansPro/sourcesanspro-bold.otf
+        - asset: assets/fonts/SourcesansPro/sourcesanspro-extralight.otf
+        - asset: assets/fonts/SourcesansPro/sourcesanspro-light.otf
+        - asset: assets/fonts/SourcesansPro/sourcesanspro-regular.otf
+        - asset: assets/fonts/SourcesansPro/sourcesanspro-semibold.otf
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.io/custom-fonts/#from-packages
